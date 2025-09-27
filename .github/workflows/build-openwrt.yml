@@ -45,7 +45,7 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
-        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
+        #sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
         #sudo add-apt-repository ppa:longsleep/golang-backports -y
         sudo -E apt-get -qq update
         sudo -E apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
